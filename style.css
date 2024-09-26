@@ -42,7 +42,7 @@ img{
 .card-container{
     width: 320px;
     height: 500px;
-    border-radius: 10px;
+    border-radius: 20px;
     background-color: var(--white);
     box-shadow: 0px 25px 25px rgba(0, 0, 0, 0.0477);
 }
