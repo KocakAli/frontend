@@ -1,7 +1,21 @@
-@import url(./_reboot.css);
-@import url(./_color.css);
-@import url(./_card.css);
-@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+h1, h2, h3,
+h4, h5, h6,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Colors */
+:root {
+    --yellow: hsl(47, 88%, 63%);
+    --white: hsl(0, 0%, 100%);
+    --gray-500: hsl(0, 0%, 42%);
+    --gray-950: hsl(0, 0%, 7%);
+}
 
 body {
     margin: 0;
@@ -20,4 +34,64 @@ img {
     display: block;
     max-width: 100%;
     border-radius: 0.625rem;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    max-width: 22rem;
+    gap: 1rem;
+    background-color: var(--white);
+    padding: 1.4rem 1.2rem 2rem;
+    margin:1rem;
+    border-radius: 1.25rem;
+    box-shadow: 8px 8px 0 black;
+    transition: all 0.5s ease;
+}
+
+.card:hover {
+    transition: all 0.5s ease;
+    box-shadow: 14px 14px 0 black;
+}
+
+.card:hover .title{
+    transition: color 0.5s ease;
+    color: var(--yellow);
+}
+
+
+
+.category-tag {
+    background-color: var(--yellow);
+    border-radius: 0.25rem;
+    max-width: 5rem;
+    padding: 0.25rem;
+    text-align: center;
+}
+
+.publish-text {
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--gray-950);
+}
+
+.title {
+    transition: color 0.5s ease;
+    font-weight: 900;
+}
+
+.description{
+    font-weight: 500;
+    color: var(--gray-500)
+}
+
+.author-section {
+    display: flex;
+    align-items: center;
+    gap: 0.875rem;
+    font-weight: 900;
+}
+
+.author-image {
+    max-height: 2rem;
 }
