@@ -1,0 +1,43 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    max-width: 22rem;
+    gap: 1rem;
+    background-color: var(--white);
+    padding: 1.4rem 1.2rem 2rem;
+    border-radius: 1.25rem;
+}
+
+.category-tag {
+    background-color: var(--yellow);
+    border-radius: 0.25rem;
+    max-width: 5rem;
+    padding: 0.25rem;
+    text-align: center;
+}
+
+.publish-text {
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--gray-950);
+}
+
+.title {
+    font-weight: 900;
+}
+
+.description{
+    font-weight: 500;
+    color: var(--gray-500)
+}
+
+.author-section {
+    display: flex;
+    align-items: center;
+    gap: 0.875rem;
+    font-weight: 900;
+}
+
+.author-image {
+    max-height: 2rem;
+}
