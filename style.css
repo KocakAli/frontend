@@ -44,6 +44,7 @@ img{
     height: 500px;
     border-radius: 10px;
     background-color: var(--white);
+    box-shadow: 0px 25px 25px rgba(0, 0, 0, 0.0477);
 }
 
 .card {
@@ -73,7 +74,7 @@ img{
     color: var(--slate500);
     font-size: 15px;
     line-height: 140%;
-    font-weight: 300;
+    font-weight: 400;
     padding: 0 16px 16px;
     letter-spacing: 0.2px;
     text-align: center;
