@@ -30,7 +30,7 @@ h5, h6, p{
 }
 
 ol, ul {
-    padding-left: 1.5rem;
+    padding-left: 1rem;
 
 }
 
@@ -38,7 +38,6 @@ ol, ul {
 p, ol , ul {
     font-size: 0.875rem;
     font-weight: 400;
-    line-height: 1.25rem;
 }
 
 li {
@@ -46,20 +45,14 @@ li {
     padding: 0 1rem;
 }
 
-ul li::marker {
+li::marker {
     color: var(--rose-800);
-    font-size: 0.625rem;
+    font-weight: bolder;
     
 }
 
-ol li::marker{
-    color: var(--rose-800);
-    font-weight: bolder;
-    font-size: 1rem;
-}
-
 body {
-    margin: 4rem 1rem;
+    margin: 1rem;
     padding: 0;
     font-family: "Outfit", sans-serif;
     display: flex;
@@ -84,10 +77,6 @@ hr {
     color: var(--rose-800)
 }
 
-.brown-800 {
-    color: var(--brown-800);
-}
-
 .stone-900 {
     color: var(--stone-900)!important;
 }
@@ -105,7 +94,6 @@ hr {
     border-radius: 0.75rem;
     background-color: var(--white);
     padding: 2rem 1.6rem 1.6rem;
-    margin-bottom: 2rem;
     gap: 2em;
 }
 
